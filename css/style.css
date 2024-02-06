@@ -1,0 +1,33 @@
+.header_part{
+    background:#131212;
+    padding: 10px 60px;
+    /* position:; */
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 9999;
+}
+.header_part h2{
+    color: #fff;
+    padding: 10px;
+}
+.header_part,h2,.icon{
+    size:800px;
+    color: #fff;
+}
+.iconS{
+    color: #306230;
+    size: 2rem;
+}
+.header_part img{
+    float: left;
+    height: 60px;
+    border-radius: 50%;
+}
+.data_table{
+    background:#306230;
+    color: #070707;
+    padding: 10px;
+    box-shadow: 1px 3px 5px #d8cccc;
+    border-radius: 5px;
+}
