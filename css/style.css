@@ -1,7 +1,6 @@
 .header_part{
-    background:#131212;
+    background:#312e2e;
     padding: 10px 60px;
-    /* position:; */
     top: 0;
     width: 100%;
     text-align: center;
@@ -9,10 +8,10 @@
 }
 .header_part h2{
     color: #fff;
-    padding: 10px;
+    padding: 20px;
 }
 .header_part,h2,.icon{
-    size:800px;
+    size:900px;
     color: #fff;
 }
 .iconS{
@@ -20,7 +19,7 @@
     size: 2rem;
 }
 .iconss{
-    color: rgb(5, 54, 3);
+    color: rgb(224, 230, 224);
     gap:2rem 2rem;
 }
 .header_part img{
@@ -29,9 +28,10 @@
     border-radius: 50%;
 }
 .data_table{
-    background:#306230;
-    color: #cfc4c4;
+    background:#84e784;
+    color: #1b1b1b;
     padding: 10px;
     box-shadow: 1px 3px 5px #d8cccc;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 0 auto;
 }
