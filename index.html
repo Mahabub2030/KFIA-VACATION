@@ -1,73 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    
+
+
 
     <link rel="icon" href="./image.png">
 
 
     <!-- java script link added here  -->
     <!-- <script src="./" ></script> -->
-   
+
     <title>WWW.K F I A .COM</title>
 
 </head>
+
 <body>
     <header class="header_part">
         <!-- <img src="./image.png" alt="" class="img-fluid"> -->
         <Marquee>
-            <h2><span class="icon m-5 size-50"><i class="fa-2xl fa-solid fa-plane text-white"></i></span></a>VACATION</i> KING FAHD INTERATIONAL AIRPORT PROJECT #4012 .</h2>
-            
-          </Marquee>
-       
+            <h2 class="font-serif text-2xl"><span class="icon m-5 size-50"><i
+                        class="fa-2xl fa-solid fa-plane text-white "></i></span></a>VACATION</i> KING FAHD INTERATIONAL
+                AIRPORT PROJECT #4012 .</h2>
+
+        </Marquee>
+
 
     </header>
-    <div class="bg-primary-sublit">
+    <div class="">
         <div class="row">
             <div class="">
                 <div class="data_table ">
                     <div class="table-responsive">
+                        <table id="example" class="table ">
+                            <thead class="bg-primary-sublit table-border-red">
+                                <tr class="text-capitalize"></tr>
+                                <th class="fw-bolder text-center text-xl ml-4  col-auto  font-serif">
+                                    <h5>Name</h5>
+                                </th>
+                                <th class="  fw-bolder text-center col-auto text-xl font-serif">
+                                    <h5>Apply-Date</h5>
+                                </th>
+                                <th class="fw-bolder text-center col-auto text-xl font-serif">
+                                    <h5>Leave-last-Date</h5>
+                                </th>
+                                <th class="fw-bolder text-center  text-xl font-serif">
+                                    <h5>Leave-End-Date</h5>
+                                </th>
 
-                    <table id="example" class="table table-border-red table-hover ">
-                        <thead class="bg-primary-sublit table-border-red">
-                            <tr class="text-capitalize"></tr>
-                                <th class="text-bg-info bs-info-bg-subtle fw-bolder text-center"><h5>Name</h5></th>
-                                <th class="fw-bolder text-center text-white bg-success "><h5>Leve-Date & Come-Back-Date</h5></th> 
+                                <th class="text- fw-bolder text-center  col-auto text-xl font-serif">
+                                    <h5>SAP-Id</h5>
+                                </th>
+                                <th class="text-bg-suusces fw-bolder col-auto   text-center text-xl font-serif">
+                                    <h5>Wrok_Location</h5>
+                                </th>
+                                <th class="text-white fw-bolder col-auto  text-center bg-dark text-xl font-serif">
+                                    <h5>type-Vacation</h5>
+                                </th>
+                                <th class="text-bg-green text-center col-auto  fw-bolder  text-xl font-serif">
+                                    <h5>Total-Days</h5>
+                                </th>
+                                <th class="text-bg-green text-center col-1 fw-bolder  text-xl font-serif">
+                                    <h5>Condition</h5>
+                                </th>
+                                <th class="fw-bolder text-center col-auto  text-xl font-serif">
+                                    <h5>Nationality</h5>
+                                </th>
+                                <th class="fw-bolder text-center col-auto   text-xl font-serif">
+                                    <h5>Name_Airprot</h5>
+                                </th>
+                                <th class="text-bg-info fw-bolder col-auto  text-center text-xl font-serif">
+                                    <h5>File</h5>
+                                </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                          
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Hilal  Kamal <span class="badge-secondary text-center text-danger fw-bolder"></span></td>
+                                    <td>05-Nov-2023</td>
+                                    <td class="text-center"><span class="fw-bolder">24-Jan-2024</span></td>
+                                    <td class="text-center"></span>19-April-2024 </td>
+                                      
+                                    <td class="text-center">401931</td>
+                                    <td class="text-center ">AIRPORT N/S</td>
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center"><span class="iconS m-2"><i
+                                                class="fa-solid fa-circle-check"></i>90 Days</td>
+                                    <td class="text-center font-extralight">ON_the_Wrok</td>
+                                    <td class="text-center font-extralight">EGYPT</td>
+                                    <td class="text-center font-extralight">EGYPT_AIRPROT</td>
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./Vacation File-2024/401931.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">AMIR HOSSAIN ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>06-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Sep-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Oct-2024</span></td>
+                                        
+                                    <td class="text-center">407703</td>
+                                 
+                                    <td class="text-center">AIRPORT N/S</td>
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">HARUN MOHAMMAD ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>06-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Sep-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Oct-2024</span></td>
+                                        
+                                    <td class="text-center">407434</td>
+                                    <td class="text-center">Parkingarige</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">KADIR KASHEM ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>06-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Sep-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Oct-2024</span></td>
+                                        
+                                    <td class="text-center">405526</td>
+                                    <td class="text-center">Royel_Terminal</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Shafiqul Islam ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>26-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Oct-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">29-Nov-2024</span></td>
+                                        
+                                    <td class="text-center">405442</td>
+                                    <td class="text-center">Royel_Terminal</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">MD Suman ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>12-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Oct-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">29-Nov-2024</span></td>
+                                        
+                                    <td class="text-center">405442</td>
+                                    <td class="text-center">Royel_Terminal</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Shoeib Abou Zeid Mahmoud Awad ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>12-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Oct-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">29-Nov-2024</span></td>
+                                        
+                                    <td class="text-center">401798</td>
+                                    <td class="text-center">Managment</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">EGYPT</td>
+                                    <td class="text-center font-extralight">Shoag_International_Airprot</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Ashraf Ahmed Abdulhadi ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>26-June-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Oct-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Oct-2024</span></td>
+                                        
+                                    <td class="text-center">405721</td>
+                                    <td class="text-center">Managment</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">30 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">EGYPT</td>
+                                    <td class="text-center font-extralight">Cairo_International_Airprot</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Gobindo Fokir Chan ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>21-July-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Nov-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Dec-2024</span></td>
+                                        
+                                    <td class="text-center">407510</td>
+                                    <td class="text-center">Nursery</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">Rahim Sikder ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>8-July-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Nov-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">31-Dec-2024</span></td>
+                                        
+                                    <td class="text-center">407613</td>
+                                    <td class="text-center">Campe & Security</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">ZAKEER HUSSAIN FATEH MOHD ! <span class="badge-secondary text-center text-danger fw-bolder">New</span></td>
+                                    <td>8-July-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">01-Nov-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">30-Jan-2025</span></td>
+                                        
+                                    <td class="text-center">405639</td>
+                                    <td class="text-center">Irrigation</td>
+                                    
+                                    <td class="bg-succech text-center bg-green"> <span class="iconS"><i
+                                                class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
+                                    <td class="text-center">60 Days</td>
+
+                                    <td class="text-center font-light">Under_Processing</td>
+                                    <td class="text-center font-extralight">Indian</td>
+                                    <td class="text-center font-extralight">Dehli_Airprot   </td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">MOHAMMAD JAMAL	 <span class="badge-secondary text-center text-danger fw-bolder"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i></span></td>
+                                    <td>31-July-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">05-Aug-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">05-Sep-2024</span></td>
+                                        
+                                    <td class="text-center">407470</td>
+                                    <td class="text-center">FENCE,ROAD,DRAIN</td>
+                                    
+                                    
+                                    <td class="bg-succech text-center "> <span class="iconS"><i
+                                                class="fa-xl fa-solid fa-plane text-red-700"></i>Emergency</td>
+                                    <td class="text-center"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i>30 Days</td>
+
+                                    <td class="text-center font-light"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i></i>Done</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
+                                <tr class="font-mono text-lg italic">
+                                    <td class="">MD Al Amin	 <span class="badge-secondary text-center text-danger fw-bolder"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i></span></td>
+                                    <td>31-July-2024</td>
+                                    <td class="text-center"><span class="fw-bolder">05-Aug-2024</span></td>
+                                    <td class="text-center"><span class="fw-bolder">05-Sep-2024</span></td>
+                                        
+                                    <td class="text-center">408309</td>
+                                    <td class="text-center">PARKING GARAGE</td>
+
+                                    
+                                    <td class="bg-succech text-center "> <span class="iconS"><i
+                                                class="fa-xl fa-solid fa-plane text-red-700"></i>Emergency</td>
+                                    <td class="text-center"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i>30 Days</td>
+
+                                    <td class="text-center font-light"><i class="fa-solid fa-circle-check text-green-600 text-center mr-4"></i></i>Done</td>
+                                    <td class="text-center font-extralight">Bangladeshi</td>
+                                    <td class="text-center font-extralight">HSIA_Dhaka</td>
+
+                                    <td class="text-cente"><button class="btn btn-outline-warning"><a
+                                                href="./FILE WITH ZAHRA.pdf">Download</a></button></td>
+
+                                </tr>
                                 
-                                <th class="text- fw-bolder text-center  bg-info"><h5>SAP-Id</h5></th>
-                                <th class="text-bg-suusces fw-bolder  text-center"><h5>Iqama-Number</h5></th>
-                                <th class="text-white fw-bolder text-center bg-dark"><h5>type-Vacation</h5></th>
-                                <th class="text-bg-green text-center fw-bolder col-1"><h5>Total-Days</h5></th>
-                                <th class="text-bg-info fw-bolder text-center col-1"><h5>File</h5></th>               
-                                         
-                            </tr>
-                        </thead>
-                        <tbody>
-                            
-                            <tr>
-                            
-                                <td> <span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span>Hilal Kamal</td>
-                                <td class="text-center"><span class="fw-bolder">24-Janury-2024</span> <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 19-April-2024 </td>
-                                <td class="text-center">401931</td>
-                                <td class="text-center">2414440285</td>
-                                <td class="bg-succech text-center bg-green" > <span class="iconS"><i class=" fa-xl fa-solid fa-plane"></i></span></span> Normal</td>
-                                <td class="text-center"><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i>90 Days</td>
-                                <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401931.pdf">Download</a></button></td>
-
-                            </tr>
-
-                            <tr>
+                               
+                                <!-- <tr>
                             
                                 <td><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i>Lal Miah Messer </td>
                                 <td class="text-center"><span class="fw-bolder">05-March-2024</span><span class="iconS"><i class="fa-solid fa-plane-departure"></i></span>29-April-2024</td>
@@ -172,9 +469,9 @@
                                 <td class="text-center"><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span>7 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/409472.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
 
-                            <!-- <tr>
+                                <!-- <tr>
                                 <td> <span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span> Salim Zawayria  </td>
                                 <td class="text-center"><span class="fw-bolder">01-Feb-2024</span>  <span class="iconS"><i class=" fa-2xl fa-solid fa-s"></i></span> 16-Feb-2024 </td>
                                 <td class="text-center">406699</td>
@@ -186,7 +483,7 @@
                             </tr> -->
 
 
-                            <tr>
+                                <!-- <tr>
                                 <td><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span>HRIDOY RAFQUL</td>
                                 <td class="text-center"><span class="fw-bolder">01-May-2024</span>  <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-July-2024 </td>
                                 <td class="text-center">401763</td>
@@ -416,9 +713,9 @@
                                 <td class="text-center"> <span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span>13 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401732.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
 
-                            <tr>
+                                <!-- <tr>
                                 <td> <span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span> Sher Shah	</td>
                                 <td class="text-center"><span class="fw-bolder">27-Mar-2024</span>  <span class="iconS"><i class=" fa-2xl fa-solid fa-s"></i> 
                                 </span>09-April-2024</td>
@@ -429,9 +726,9 @@
                                 <td class="text-center"><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i> 45 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401785 -Vacation File.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
 
-                            <tr>
+                                <!-- <tr>
                                 <td><span class="iconS m-2"><i class="fa-solid fa-circle-check"></i></span>SADIK SAIDUR MAHADI	</td>
                                 <td class="text-center"><span class="fw-bolder">28-April-2024</span>  <span class="iconS"><i class=" fa-2xl fa-solid  fa-s"></i> 
                                    </span>08-May-2024</td>
@@ -441,9 +738,9 @@
                                 <td class="text-center"> <span class="iconS m-2"><i class="fa-solid "></i></span>10 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401730 -Vacation File.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
 
-                            <tr>
+                                <!-- <tr>
                                 <td><span> </span>LOTIF MIAH AKRAB	! <span class="badge-secondary text-danger fw-bolder">New</span></td>
                                 <td class="text-center"><span class="fw-bolder">01-Aug-2024</span>  <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-Oct-2024 </td>
                                 <td class="text-center">401779</td>
@@ -452,9 +749,9 @@
                                 <td class="text-center"><span class="iconS m-2"></i></span>60 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401779 - Vacation File.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
 
-                            <tr class="">
+                                <!-- <tr class="">
                                 <td class=""><span class="iconS m-2 "><i class="fa-solid fa-circle-check"></i></span> Bipad Mondal Madan</td>
                                 <td class="text-center"><span class="fw-bolder">25-Apr-2024</span> <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span>25-May-2024 </td>
                                 <td class="text-center">401800</td>
@@ -464,79 +761,89 @@
                                 <td class="text-center"><span class="iconS m-2 "><i class="fa-solid fa-circle-check"></i></span> </i>30 Days</td>
                                 <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401800 - Vacation File.pdf">Download</a></button></td>
 
-                            </tr>
+                            </tr> -->
+                                <!-- 
+                                <tr>
+                                    <td><span> </span>MD JUWEL ISLAM ! <span
+                                            class="badge-secondary text-danger fw-bolder">New</span></td>
+                                    <td class="text-center"><span class="fw-bolder">01-Aug-2024</span> <span
+                                            class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-Sep-2024
+                                    </td>
+                                    <td class="text-center">401772</td>
+                                    <td class="text-center">2428049825</td>
+                                    <td class="fw-bolder  text-center"><span class="iconS"></i></span>Normal</td>
+                                    <td class="text-center"><span class="iconS m-2"></i></span>60 Days</td>
+                                    <td><button class="btn btn-outline-warning"><a
+                                                href="./Vacation File-2024/401772  Vacation File -.pdf">Download</a></button>
+                                    </td>
 
-                            <tr>
-                                <td><span> </span>MD JUWEL ISLAM   ! <span class="badge-secondary text-danger fw-bolder">New</span></td>
-                                <td class="text-center"><span class="fw-bolder">01-Aug-2024</span>  <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-Sep-2024</td>
-                                <td class="text-center">401772</td>
-                                <td class="text-center">2428049825</td>
-                                <td class="fw-bolder  text-center"><span class="iconS"></i></span>Normal</td>
-                                <td class="text-center"><span class="iconS m-2"></i></span>60 Days</td>
-                                <td><button class="btn btn-outline-warning"><a href="./Vacation File-2024/401772  Vacation File -.pdf">Download</a></button></td>
+                                </tr>
+                                <tr>
+                                    <td><span> </span>KRISHNA BIND ! <span
+                                            class="badge-secondary text-danger fw-bolder">New</span></td>
+                                    <td class="text-center"><span class="fw-bolder">01-Aug-2024</span> <span
+                                            class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-Sep-2024
+                                    </td>
+                                    <td class="text-center">401751</td>
+                                    <td class="text-center">2485304162</td>
+                                    <td class="fw-bolder  text-center"><span class="iconS"></i></span>Normal</td>
+                                    <td class="text-center"><span class="iconS m-2"></i></span>60 Days</td>
+                                    <td><button class="btn btn-outline-warning"><a
+                                                href="./Vacation File">Download</a></button></td>
 
-                            </tr>
-                            <tr>
-                                <td><span> </span>KRISHNA BIND	  ! <span class="badge-secondary text-danger fw-bolder">New</span></td>
-                                <td class="text-center"><span class="fw-bolder">01-Aug-2024</span>  <span class="iconS"><i class="fa-solid fa-plane-departure"></i></span> 30-Sep-2024</td>
-                                <td class="text-center">401751</td>
-                                <td class="text-center">2485304162</td>
-                                <td class="fw-bolder  text-center"><span class="iconS"></i></span>Normal</td>
-                                <td class="text-center"><span class="iconS m-2"></i></span>60 Days</td>
-                                <td><button class="btn btn-outline-warning"><a href="./Vacation File">Download</a></button></td>
+                                </tr> -->
 
-                            </tr>
-                
-                           <!-- <div>
+                                <!-- <div>
                                 <h2 class="card-title">
                                     Shoes!
                                     <div class="badge badge-secondary">NEW</div>
                                   </h2>
                                   <p>If a dog chews shoes whose shoes does he choose?</p>
                             </div> -->
-                         
-                        
 
-                        </tfoot>
-                    </table>
-                
+
+
+                                </tfoot>
+                        </table>
+
+                    </div>
+
                 </div>
 
             </div>
-
         </div>
     </div>
-    </div>
-      
+
     <script src=" https://code.jquery.com/jquery-3.7.0.js"></script>
-   <script src=" https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-   <script src=" https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-   <script src="https://kit.fontawesome.com/45981ef00f.js" crossorigin="anonymous"></script>
+    <script src=" https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src=" https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://kit.fontawesome.com/45981ef00f.js" crossorigin="anonymous"></script>
 
 
 
-   <script src="jquery-3.6.0.min.js"></script>
-   <script src="datatables.min.js"></script>
-   <script src="pdfmake.min.js"></script>
-   <script src="js/vfs_fonts.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="datatables.min.js"></script>
+    <script src="pdfmake.min.js"></script>
+    <script src="js/vfs_fonts.js"></script>
 
 
-<script>
-    new DataTable('#example');
-</script>
+    <script>
+        new DataTable('#example');
+    </script>
 
 
-<footer class="bg-black text-center  m- top-pill  py-5 fst-italic fw-bolder ">
-    
-   
+    <footer class="bg-black text-center  m- top-pill  py-5 fst-italic fw-bolder ">
 
-    <div class="gap-5 text-green">
-        <i class="fa-2xl fa-solid fa-plane text-white"></i>
-        &copy; Copy Writing Mahabub_Alam Working (K.F.I.A in Dammam) #4012
-        <span class="iconS"><i class=" fa-2xl fa-solid fa-s text-white fw-bolder"></i></span>
-        
-    </div>
-</footer>
-  
+
+
+        <div class="gap-5 text-green">
+            <i class="fa-2xl fa-solid fa-plane text-white"></i>
+            &copy; Copy Writing Mahabub_Alam Working (K.F.I.A in Dammam) #4012
+            <span class="iconS"><i class=" fa-2xl fa-solid fa-s text-white fw-bolder"></i></span>
+
+        </div>
+    </footer>
+
 </body>
+
 </html>
